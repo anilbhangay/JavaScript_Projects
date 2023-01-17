@@ -99,13 +99,84 @@ let a = 199;
 let b = 188;
 
 if(a > b ){
-    console.log("truthy");
-
+    console.log("true");
 }
   else{
-    console.log("falsy");
+    console.log("false");
   }
-
   console.log(b); //01.truthly
 
-  
+
+ var k = "JavaScript";
+
+ console.log(typeof k === 'string'); //02.truthly
+
+
+let  object = {name : "Denver", age : 30};
+
+console.log('age' in object); //03.truthly
+
+
+
+let s = 100;
+let d = 99;
+
+console.log(s < d); //01.falsy
+
+let variable = "hello world";
+
+console.log(typeof variable === 'number'); //02.falsy
+
+let car = { Brand: "Tata Safari", Model: 2022, Color: "Black Gold"};
+
+console.log("Price" in car); //03.falsy
+
+
+
+//10. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+
+ console.log(4 > 3);    //true  
+ console.log(4 >= 3);   //true
+ console.log(4 < 3);    //false
+ console.log(4 <= 3);   //false
+ console.log(4 == 4);   //true
+ console.log(4 === 4);  //true
+ console.log(4 != 4);   //false
+ console.log(4 !== 4);  //false
+ console.log(4 != '4'); //false
+ console.log(4 == '4'); //true
+ console.log (4 === '4'); //false 
+
+ // -Find the length of python and jargon and make a falsy comparison statement.
+
+ let dp = "python";
+ let dk = "jargon";
+
+let pythonlength = dp.length;
+let jargonlength = dk.length;
+
+console.log(pythonlength);
+console.log(jargonlength);
+
+console.log(pythonlength !== jargonlength); //falsy
+
+
+/*11. Use the Date object to do the following activities
+    - What is the year today?
+    - What is the month today as a number?
+    - What is the date today?
+    - What is the day today as a number?
+    - What is the hours now?
+    - What is the minutes now?
+    - Find out the numbers of seconds elapsed from January 1, 1970 to now.*/
+
+ let now = new Date();
+ console.log(now.getFullYear()); //year today
+
+
+ let mth = new Date();
+ let current = mth.getUTCMonth();
+ console.log(current); //month today
+
+
+ 
