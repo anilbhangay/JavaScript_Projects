@@ -117,7 +117,6 @@ let  object = {name : "Denver", age : 30};
 console.log('age' in object); //03.truthly
 
 
-
 let s = 100;
 let d = 99;
 
@@ -271,11 +270,9 @@ console.log(pythonlength !== jargonlength); //falsy
 
   //15. Write a program which can give grades to students according to theirs scores:
       
-     function getGrade(score){
-             if(typeof score === Number){
-                    return "You cannot use string here."
-
-            }  else if(score >= 80 && score <= 100) {
+          function getGrade(score){
+           
+           if(score >= 80 && score <= 100) {
                       return "'A'";
            } 
              
@@ -298,12 +295,90 @@ console.log(pythonlength !== jargonlength); //falsy
                        return  "Value should not be greather than 100.";
               } 
         }                 
-          console.log(getGrade(49)); 
+          console.log(getGrade(100)); 
 
   // 16. Check if the season is Autumn, Winter, Spring or Summer. If the user input is 
   
-      
+        let month = "December";
+  
+        if(month === "September" || month === "October" || month === "November") {
+                      console.log("The season is Autumn");   
+         }
+           else if(month === "December" || month === "January" || month === "February") {
+                      console.log("The season is Winter");
+           }
+             else if(month === "March" || month === "April" || month === "May") {
+                      console.log("The season is Spring");
+             }
+               else if(month === "June" || month === "July" || month === "August") {
+                      console.log("The season is Summer");
+               }
+                  else {
+                    console.log("This is not a season");
+                  }
 
+  // 17. Write a program which tells the number of days in a month.
+        
+       let moonth = "February";
+       let year = 2023;
+       let daysInMonth;
+
+       switch (moonth) {
+             case "January":
+             case "March":
+             case "May":
+             case "July":
+             case "August":
+             case "October":
+             case "December":
+              daysInMonth = 31;
+               break;
+            case "February":
+              if(year % 4 === 0) {
+                  daysInMonth = 29;
+              }  else {
+                   daysInMonth = 28;
+              }
+               break;
+             default:
+                daysInMonth = 30;
+       }
+          console.log("Number of days in " + moonth + " " + year +  " is: "  +  daysInMonth);
+    
+  // 18. Write a program which tells the number of days in a month, now consider leap year.
      
+        let montth = "February";
+        let yeaar = 2020;
+        let dayssinmonth;
 
+        switch (montth) {
+          case "January":
+            case "March":
+            case "May":
+            case "July":
+            case "August":
+            case "October":
+            case "December":
+              dayssinmonth = 31;
+               break;
+            case "February":
+              if (yeaar % 4 === 0) {
+               if (yeaar % 100 === 0) {
+                 if (yeaar % 400 === 0) {
+                       dayssinmonth = 29;
+                 } else {
+                     dayssinmonth = 28;
+                 }
+               } else {
+                   dayssinmonth = 29;
+               }
+              }  else {
+                  dayssinmonth = 28;
+              }
+                break;
+                default:
+                  dayssinmonth = 30;
+          }
+           console.log("Number of days in " + montth + " "+ yeaar + " is: " + dayssinmonth);
 
+  // 19. Create a countries.js file and store the countries name into this file, create a file web_techs.js and store the popular web technology names into this file. Access both file in a third file named main.js
