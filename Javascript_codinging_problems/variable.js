@@ -382,3 +382,7 @@ console.log(pythonlength !== jargonlength); //falsy
            console.log("Number of days in " + montth + " "+ yeaar + " is: " + dayssinmonth);
 
   // 19. Create a countries.js file and store the countries name into this file, create a file web_techs.js and store the popular web technology names into this file. Access both file in a third file named main.js
+
+
+  
+  //20. In the following shopping cart add, remove, edit items
