@@ -235,14 +235,14 @@ console.log(pythonlength !== jargonlength); //falsy
 
   //  13. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
 
-   let Age = prompt("Enter your age:");
+  //  let Age = prompt("Enter your age:");
      
-   if(Age >= 18){
-    console.log('You are old enough to drive');
-   }
-    else{
-      console.log('Wait for the number of years needs to turn 18'); 
-    }  // using prompt  
+  //  if(Age >= 18){
+  //   console.log('You are old enough to drive');
+  //  }
+  //   else{
+  //     console.log('Wait for the number of years needs to turn 18'); 
+  //   }  // using prompt  
 
 
   //14. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript? Create a program which checks that the given number is even or odd.
@@ -271,12 +271,39 @@ console.log(pythonlength !== jargonlength); //falsy
 
   //15. Write a program which can give grades to students according to theirs scores:
       
-     let score = 100 ;
-     console.log(88);
+     function getGrade(score){
+             if(typeof score === Number){
+                    return "You cannot use string here."
 
-     if(score <= 80){
-           console.log("Grade - 'A'")
-     }
-       else {
-              console.log("Grade - 'F'");
-       }
+            }  else if(score >= 80 && score <= 100) {
+                      return "'A'";
+           } 
+             
+             else if(score >= 70 && score <= 79) {
+                      return "'B'";
+           }
+             else if(score >= 60 && score <= 69) {
+                       return "'C'";
+          }
+             else if(score >= 50 && score <= 59) {
+                       return  "'D'";
+           }
+             else if(score >= 0 && score <= 49) {
+                       return "'F'";
+             }   
+              else if(score < 0){
+                       return "Value should not be less than 0.";
+            } 
+              else if(score > 100) {
+                       return  "Value should not be greather than 100.";
+              } 
+        }                 
+          console.log(getGrade(49)); 
+
+  // 16. Check if the season is Autumn, Winter, Spring or Summer. If the user input is 
+  
+      
+
+     
+
+
