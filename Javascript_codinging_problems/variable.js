@@ -383,7 +383,7 @@ console.log(pythonlength !== jargonlength); //falsy
 
   // 19. Create a countries.js file and store the countries name into this file, create a file web_techs.js and store the popular web technology names into this file. Access both file in a third file named main.js
 
-
+         //2 files Linked in main.js. 
   
   //20. In the following shopping cart add, remove, edit items
   // => const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
@@ -445,5 +445,100 @@ console.log(pythonlength !== jargonlength); //falsy
       medianage = ages[Math.floor(ages.length / 2)];
    }
      console.log("Median age: " + medianage); // Median age.
+  
+     let totalage = ages.reduce((a, b) => a + b);
+     let averageage = totalage / ages.length;
+     console.log("Average age: " + averageage); // Average age.
 
-    
+    let miniage = Math.min(...ages);
+    let maxiage = Math.max(...ages);
+    let range = maxiage - minage;
+    console.log("Range of Ages: " + range); // Range of ages.
+
+    let averageages = ages.reduce((a, b) => a + b) / ages.length;
+    let miinage = Math.min(...ages);
+    let maxxage = Math.max(...ages);
+    let mindiff = Math.abs(miinage - averageages);
+    let maxdiff = Math.abs(maxxage - averageages);
+
+    if (mindiff > maxdiff) {
+        console.log("The difference between the minimum age and the average age is greater than the difference between the maximum age and the average age.");
+    }
+      else if (mindiff < maxdiff) {
+        console.log("The difference between the maximum age and the average age is greater than the difference between the minimum age and the average age.");
+    }
+      else {
+       console.log("The difference between the minimum age and the average age is equal to the difference between the maximum age and the average age.");
+    } // Compare the value min - max abs() method.
+
+
+  //23. Write a program to check that the number given by the user is a prime number or not.
+
+      function primeornot(numbs) {
+        if (numbs % 2 === 0) {
+              console.log(numbs + " is a Prime Number.");
+        }
+          else {
+               console.log(numbs + " is not a Prime Number.");
+          }
+      }
+        console.log(primeornot(6)); // Prime Number. 
+        console.log(primeornot(7)); // not Prime Number.
+
+  //25. Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
+  // - The same groups apply to both men and women.
+  // - Underweight: BMI is less than 18.5
+  // - Normal weight: BMI is 18.5 to 24.9
+  // - Overweight: BMI is 25 to 29.9
+  // - Obese: BMI is 30 or more
+
+
+
+     
+  // 26. Write a program to print the table of any number given by the user. The format of the output should be smiliar to the below example-
+	// If the number given by the user is 2 then the output should look like this-
+	// 2 * 1 = 2
+	// 2 * 2 = 4
+	// 2 * 3 = 6 and so on till 2 * 10 = 20.
+
+       function printTable(numr){
+         for(let i = 1; i <= 10; i++) {
+               console.log(numr + " * " + i + " = " + (numr * i));
+         }
+       }
+         console.log(printTable(2)); // Print Table
+
+
+//28. Write a program to print the given patterns using the loops-
+// 	a. Print a triangle pattern, if the given input is 3 then the pattern should be similar to the given output
+//   *
+//   **
+//   ***
+
+// b. Print a square pattern, if the input is 3 then the output should be similar to the given output
+//   ***
+//   ***
+//   ***
+
+// c. Print a pyramid pattern, if the input is 3 then the output should be similar to the given output
+//     *
+//    ***
+//    *****
+     let size = 3;
+     for(let i = 1; i <= size; i++) {
+         let row = "";
+      for(let j = 1; j <= i; j++) {
+             row += "*";
+      }
+        console.log(row);
+     } // Print Triangle Pattern.
+
+
+     let sizee = 3;
+     for(let i = 1; i <= sizee; i++) {
+         let roww = "";
+      for(let j = 1; j <= i; j++) {
+             roww += "*";
+      }
+        console.log(roww);
+     }
