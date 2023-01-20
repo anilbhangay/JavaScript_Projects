@@ -386,3 +386,64 @@ console.log(pythonlength !== jargonlength); //falsy
 
   
   //20. In the following shopping cart add, remove, edit items
+  // => const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+  // - add 'Meat' in the beginning of your shopping cart if it has not been already added
+  // - add Sugar at the end of your shopping cart if it has not been already added
+  // - remove 'Honey'
+  // - modify Tea to 'Green Tea'
+
+     const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
+     if (shoppingCart.indexOf('Meat','Sugar') === -1) {
+     shoppingCart.unshift('Meat');
+     shoppingCart.push('Sugar');
+     let index  = shoppingCart.indexOf('Honey');
+     shoppingCart.splice(index, 1);
+     let index1 = shoppingCart.indexOf('Tea');
+     shoppingCart.splice(index1, 1, "Green Tea");
+  } 
+     console.log(shoppingCart);  //Array Methods
+
+ // 21. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
+    
+     let countries = ["India", "Austrila", "Mexico","Finland", "Japan"];
+
+     if(countries === 'Ethiopia'){
+                console.log('ETHIOPIA');
+     }
+       else{
+        console.log(countries.unshift('Ethiopia'));
+       }
+     console.log(countries); //Array check
+
+  // 22. The following is an array of 10 students ages:
+  // => const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+  // - Sort the array and find the min and max age
+  // - Find the median age(one middle item or two middle items divided by two)
+  // - Find the average age(all items divided by number of items)
+  // - Find the range of the ages(max minus min)
+  // - Compare the value of (min - average) and (max - average), use abs() method
+
+   const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+
+   ages.sort();
+   console.log(ages);
+
+   let minage = Math.min(...ages);
+   console.log("Minimum age: " + minage);
+
+   let maxage = Math.max(...ages);
+   console.log("Maximum age: " + maxage); //min and max ages.
+
+   let  medianage;
+
+   if (ages.length % 2 === 0){
+    
+       let middle1 = ages[ages.length / 2 - 1];
+       let middle2 = ages[ages.length / 2];
+       medianage = (middle1 + middle2) / 2;
+   } else {
+      medianage = ages[Math.floor(ages.length / 2)];
+   }
+     console.log("Median age: " + medianage); // Median age.
+
+    
