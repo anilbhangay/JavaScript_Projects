@@ -233,14 +233,14 @@ console.log(pythonlength !== jargonlength); //falsy
 
   //  13. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
 
-   let Age = prompt("Enter your age:");
+  //  let Age = prompt("Enter your age:");
      
-   if(Age >= 18){
-    console.log('You are old enough to drive');
-   }
-    else{
-      console.log('Wait for the number of years needs to turn 18'); 
-    }  // using prompt  
+  //  if(Age >= 18){
+  //   console.log('You are old enough to drive');
+  //  }
+  //   else{
+  //     console.log('Wait for the number of years needs to turn 18'); 
+  //   }  // using prompt  
 
 
   //14. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript? Create a program which checks that the given number is even or odd.
@@ -489,10 +489,17 @@ console.log(pythonlength !== jargonlength); //falsy
         
         let even = [];
         let odd = [];
-      for(let i = 0; i <= 100; i++)
-          if() {
-            
+
+      for(let i = 0; i <= 100; i++) {
+          if (i % 2 === 0) {
+            even.push(i);
+          } else {
+              odd.push(i);
           }
+      }
+         console.log("Even Numbers: " + even);
+         console.log("Odd Numbers: " + odd);
+          
 
   //25. Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
   // - The same groups apply to both men and women.
@@ -501,7 +508,21 @@ console.log(pythonlength !== jargonlength); //falsy
   // - Overweight: BMI is 25 to 29.9
   // - Obese: BMI is 30 or more
 
+        function calculateBMI(weight, height) {
+              let bmi = weight / (height * height);
 
+               if (bmi <= 18.5) {
+                   console.log("Underweight");
+               } else if (bmi >= 18.5 && bmi <= 24.9) {
+                    console.log("Normal weight");    
+               } else if (bmi >= 25 && bmi <= 29.9) {
+                    console.log("Overweight");
+               } else if (bmi >= 30) {
+                    console.log("Obese");
+               }
+        }
+          calculateBMI(10, 1.8); // BMI Calculator.
+         
 
      
   // 26. Write a program to print the table of any number given by the user. The format of the output should be smiliar to the below example-
@@ -588,18 +609,18 @@ console.log(pythonlength !== jargonlength); //falsy
 
 //30. Create a simple calculator program in JavaScript which can perform the addition, substraction, multiplication and division on given numbers.
 
-      let cal1 = prompt("Enter first number");
-      let operation = prompt("Enter operation: +, -, *, /");
-      let cal2 = prompt("Enter second number");
+      // let cal1 = prompt("Enter first number");
+      // let operation = prompt("Enter operation: +, -, *, /");
+      // let cal2 = prompt("Enter second number");
 
-      if(operation === "+") {
-        console.log("Addition:" + (cal1 + cal2));
-      } else if(operation === "-") {
-        console.log("Subtraction:" + (cal1 - cal2));
-      } else if(operation === "*") {
-        console.log("Multiplication:" + (cal1 * cal2));
-      } else if(operation === "/") {
-        console.log("Division:" + (cal1 / cal2));
-      } else {
-        console.log("Invalid operator.");
-      } // Simple Calculator. 
+      // if(operation === "+") {
+      //   console.log("Addition:" + (cal1 + cal2));
+      // } else if(operation === "-") {
+      //   console.log("Subtraction:" + (cal1 - cal2));
+      // } else if(operation === "*") {
+      //   console.log("Multiplication:" + (cal1 * cal2));
+      // } else if(operation === "/") {
+      //   console.log("Division:" + (cal1 / cal2));
+      // } else {
+      //   console.log("Invalid operator.");
+      // } // Simple Calculator. 
