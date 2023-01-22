@@ -22,7 +22,6 @@ let king =  null;
 console.log(king); //null
 
 
-
 //02. Declare variables to store your first name, last name, marital status, country and age and display them using interpolation method.
 
  let firstname = "Michael";
@@ -234,14 +233,14 @@ console.log(pythonlength !== jargonlength); //falsy
 
   //  13. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
 
-  //  let Age = prompt("Enter your age:");
+   let Age = prompt("Enter your age:");
      
-  //  if(Age >= 18){
-  //   console.log('You are old enough to drive');
-  //  }
-  //   else{
-  //     console.log('Wait for the number of years needs to turn 18'); 
-  //   }  // using prompt  
+   if(Age >= 18){
+    console.log('You are old enough to drive');
+   }
+    else{
+      console.log('Wait for the number of years needs to turn 18'); 
+    }  // using prompt  
 
 
   //14. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript? Create a program which checks that the given number is even or odd.
@@ -485,6 +484,16 @@ console.log(pythonlength !== jargonlength); //falsy
         console.log(primeornot(6)); // Prime Number. 
         console.log(primeornot(7)); // not Prime Number.
 
+
+  //24. Write a program to create two array "even" and "odd" having even and odd number between the 0 to 100 (0 and 100 included).
+        
+        let even = [];
+        let odd = [];
+      for(let i = 0; i <= 100; i++)
+          if() {
+            
+          }
+
   //25. Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
   // - The same groups apply to both men and women.
   // - Underweight: BMI is less than 18.5
@@ -506,39 +515,91 @@ console.log(pythonlength !== jargonlength); //falsy
                console.log(numr + " * " + i + " = " + (numr * i));
          }
        }
-         console.log(printTable(2)); // Print Table
+         console.log(printTable(2)); // Print Table.
+         
+
+  //27. Write a program to print all the prime number between 0 to 100 (0 and 100 included).    
+  
+     for(let i = 0; i <= 100; i++) {
+          let isprime = true;
+          if(i <= 1) {
+            isprime = false;
+          } else {
+            for(let j = 2; j <= Math.sqrt(i); j++) {
+             if (i % j === 0) {
+               isprime = false;
+               break;
+             }
+          }
+       }
+         if (isprime){
+            console.log(i);
+         }  
+     }   //Prime Number 0 to 100.
 
 
 //28. Write a program to print the given patterns using the loops-
 // 	a. Print a triangle pattern, if the given input is 3 then the pattern should be similar to the given output
-//   *
-//   **
-//   ***
-
-// b. Print a square pattern, if the input is 3 then the output should be similar to the given output
-//   ***
-//   ***
-//   ***
-
-// c. Print a pyramid pattern, if the input is 3 then the output should be similar to the given output
-//     *
-//    ***
-//    *****
+ 
      let size = 3;
      for(let i = 1; i <= size; i++) {
-         let row = "";
-      for(let j = 1; j <= i; j++) {
-             row += "*";
-      }
-        console.log(row);
+     let row = "";
+     for(let j = 1; j <= i; j++) {
+        row += "*";
+     }
+     console.log(row);
      } // Print Triangle Pattern.
 
 
+// b. Print a square pattern, if the input is 3 then the output should be similar to the given output
+
      let sizee = 3;
      for(let i = 1; i <= sizee; i++) {
-         let roww = "";
-      for(let j = 1; j <= i; j++) {
-             roww += "*";
-      }
-        console.log(roww);
+     let roww = "";
+     for(let j = 1; j <= sizee; j++) {
+        roww += "*";
      }
+       console.log(roww);
+     } // Print Square Pattern.
+
+
+// c. Print a pyramid pattern, if the input is 3 then the output should be similar to the given output
+        
+       let sizze = 3;
+       for (let i = 1; i <= sizze; i++) {
+            let roow = "";
+        for (let j = 1; j <= (2 * sizze - 1); j++) {
+            if (j >= sizze - (i - 1) && j <= sizze + (i - 1)) {
+               roow += "*";
+            } else {
+                roow += " ";
+            }
+        }
+          console.log(roow);
+       } // Print pyramid pattern.
+
+
+ //29. Write a javascript program which takes the input of filename as string and prints the extension of the file in the console.
+         
+       let filename = "index.title";
+        let extension = filename.substring(filename.lastIndexOf(".")+ 1); 
+      console.log(extension); // Prints the extension.
+
+
+//30. Create a simple calculator program in JavaScript which can perform the addition, substraction, multiplication and division on given numbers.
+
+      let cal1 = prompt("Enter first number");
+      let operation = prompt("Enter operation: +, -, *, /");
+      let cal2 = prompt("Enter second number");
+
+      if(operation === "+") {
+        console.log("Addition:" + (cal1 + cal2));
+      } else if(operation === "-") {
+        console.log("Subtraction:" + (cal1 - cal2));
+      } else if(operation === "*") {
+        console.log("Multiplication:" + (cal1 * cal2));
+      } else if(operation === "/") {
+        console.log("Division:" + (cal1 / cal2));
+      } else {
+        console.log("Invalid operator.");
+      } // Simple Calculator. 
