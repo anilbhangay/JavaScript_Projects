@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#butn {
+    padding: 16px;
+    background-color: darkgray;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    cursor: pointer;
+}
