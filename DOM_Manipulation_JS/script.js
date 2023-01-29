@@ -16,8 +16,7 @@
       console.log(val);
       val.textContent = 'Document object model';
       document.body.appendChild(val);
-
-    };
+  };
 
     document.getElementById("para").innerHTML
       console.log(para)
@@ -91,3 +90,11 @@
             document.getElementById("fsjs").style.backgroundColor = "Red";
         }         
       };
+
+         //Remove child
+         let d = document.getElementById("top");
+         let xp = document.getElementById("nested");
+         let xd = d.removeChild(xp);
+         console.log(xd); 
+           
+  
