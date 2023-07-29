@@ -1,5 +1,8 @@
    $(document).ready(function(){
-     $("button").click(function(){
-        $("#top, #pop").slideToggle();
+     $("#btn1").click(function(){
+        $("#top, #pop").slideUp();
+     });
+     $("#btn2").click(function(){
+        $("#top, #pop").slideDown();
      });
    });
