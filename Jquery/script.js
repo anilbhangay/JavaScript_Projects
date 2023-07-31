@@ -11,11 +11,14 @@
 $(document).ready(function(){
    $("#btn1").click(function(){
     $("#box").animate({
+      "background-color": "yellow",
        height: "250px",
        width: "250px",
-       "background-color": 'blue',
        "margin-left": "280px",
        "margin-top": "280px",
-    }, 3000);
+    }, 4000, function(){alert("Animate Completed")});
    });
+       $("#btn2").click(function(){
+         $("#box").stop();
+       });
 });
