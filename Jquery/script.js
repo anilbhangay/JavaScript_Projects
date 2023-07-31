@@ -24,18 +24,25 @@
 // });
 
 
- $(document).ready(function(){
-     $(".btn1").click(function(){
-       alert("Text : " + $(".para1").text());
-     });
+//  $(document).ready(function(){
+//      $(".btn1").click(function(){
+//        alert("Text : " + $(".para1").text());
+//      });
 
-       $(".btn2").click(function(){
-         alert("HTML : " + $(".para2").html());
-       });
+//        $(".btn2").click(function(){
+//          alert("HTML : " + $(".para2").html());
+//        });
 
-         $(document).ready(function(){
-           $(".btn3").click(function(){
-             alert("Value : " + $(".search").val());
-           });
+//          $(document).ready(function(){
+//            $(".btn3").click(function(){
+//              alert("Value : " + $(".search").val());
+//            });
+//          });
+//  });
+
+
+      $(document).ready(function(){
+         $(".btn4").click(function(){
+           alert($(".tag").attr("herf"));
          });
- });
+      });
