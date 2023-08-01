@@ -41,23 +41,41 @@
 //  });
 
 
-      $(document).ready(function(){
-         $(".btn1").click(function(){
-           $(".para1").text("Web Developer Page!");
-           });
+      // $(document).ready(function(){
+      //    $(".btn1").click(function(){
+      //      $(".para1").text("Web Developer Page!");
+      //      });
          
-           $(".btn2").click(function(){
-            $(".para2").html("<h2>How to Learn Jquery</h2>");
-            });
+      //      $(".btn2").click(function(){
+      //       $(".para2").html("<h2>How to Learn Jquery</h2>");
+      //       });
 
-            $(".btn3").click(function(){
-              $(".search").val("Enter Here");
-              });
-      });
+      //       $(".btn3").click(function(){
+      //         $(".search").val("Enter Here");
+      //         });
+      // });
 
-       $(document).ready(function(){
-          $(".btn4").click(function(){
-            alert($(".srch").attr("href"));
+      //  $(document).ready(function(){
+      //     $(".btn4").click(function(){
+      //       alert($(".srch").attr("href"));
+      //     });
+      //  });
+
+
+      $(document).ready(function(){
+        // $(".btn1").click(function(){
+        //    $(".para1").append(" and javascript also");
+        // });
+          
+        //   $(".btn2").click(function(){
+        //      $(".para2").prepend("Why we Use");
+        //   });
+
+          $(".btn3").click(function(){
+            let x = "<h2>Progress</h2>";
+            let y = $("<p></p>").text("Waiting");
+            let z = document.createElement("h1");
+            z.innerHTML = "Completed";
+             $(".pop").append(z);         
           });
-       });
-
+      });
