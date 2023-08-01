@@ -42,7 +42,22 @@
 
 
       $(document).ready(function(){
-         $(".btn4").click(function(){
-           alert($(".tag").attr("herf"));
-         });
+         $(".btn1").click(function(){
+           $(".para1").text("Web Developer Page!");
+           });
+         
+           $(".btn2").click(function(){
+            $(".para2").html("<h2>How to Learn Jquery</h2>");
+            });
+
+            $(".btn3").click(function(){
+              $(".search").val("Enter Here");
+              });
       });
+
+       $(document).ready(function(){
+          $(".btn4").click(function(){
+            alert($(".srch").attr("href"));
+          });
+       });
+
