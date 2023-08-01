@@ -62,7 +62,7 @@
       //  });
 
 
-      $(document).ready(function(){
+      // $(document).ready(function(){
         // $(".btn1").click(function(){
         //    $(".para1").append(" and javascript also");
         // });
@@ -71,11 +71,17 @@
         //      $(".para2").prepend("Why we Use");
         //   });
 
-          $(".btn3").click(function(){
-            let x = "<h2>Progress</h2>";
-            let y = $("<p></p>").text("Waiting");
-            let z = document.createElement("h1");
-            z.innerHTML = "Completed";
-             $(".pop").append(z);         
+      //     $(".btn3").click(function(){
+      //       let x = "<h2>Progress</h2>";
+      //       let y = $("<p></p>").text("Waiting");
+      //       let z = document.createElement("h1");
+      //       z.innerHTML = "Completed";
+      //        $(".pop").append(z);         
+      //     });
+      // });
+
+       $(document).ready(function(){
+          $("btn1").click(function(){
+             
           });
-      });
+       });
