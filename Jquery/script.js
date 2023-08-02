@@ -102,7 +102,15 @@
   //  });
   //  });
  
-     
+     $(document).ready(function(){
+       $(".btn1").click(function(){
+          $(".para1").css({"background-color":"yellow","font-size":"25px","color":"grey"});
+       });
+
+         $(".btn2").click(function(){
+           alert("Color :" + $(".para1").css("color"));
+         });
+     });
       
         
 
