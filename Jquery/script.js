@@ -112,16 +112,24 @@
     //      });
     //  });
       
-        $(document).ready(function(){
-           $(".btn1").click(function(){
-             $(".test").addClass("class1 class2");
-           });
+        // $(document).ready(function(){
+        //    $(".btn1").click(function(){
+        //      $(".test").addClass("class1 class2");
+        //    });
            
-           $(".btn2").click(function(){
-              $(".test").addClass("class2");
-           });
+        //    $(".btn2").click(function(){
+        //       $(".test").addClass("class2");
+        //    });
 
-        });
+        // });
        
-     
+       $(document).ready(function(){
+         $(".btn1").click(function(){
+            $("#test").removeClass("class1");
+         });
+
+          $(".btn2").click(function(){
+             $("#test").toggleClass("class2");
+          });
+       });
      
