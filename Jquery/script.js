@@ -80,25 +80,31 @@
       //     });
       // });
 
-       $(document).ready(function(){
-          $(".btn1").click(function(){
-             $(".pop").remove();
-          });
+  //      $(document).ready(function(){
+  //         $(".btn1").click(function(){
+  //            $(".pop").remove();
+  //         });
 
-          $(".btn2").click(function(){
-            $(".pop").empty();
-         });
+  //         $(".btn2").click(function(){
+  //           $(".pop").empty();
+  //        });
 
-         $(".btn3").click(function(){
-          $(".pop").text("Getting data into the div");
-       });
+  //        $(".btn3").click(function(){
+  //         $(".pop").text("Getting data into the div");
+  //      });
 
-       $(".btn4").click(function(){
-        $(".para3").before("Before use jquery in js");
-     });
+  //      $(".btn4").click(function(){
+  //       $(".para3").before("Before use jquery in js");
+  //    });
 
-     $(".btn5").click(function(){
-      $(".para3").after("After using jquery in js ");
-   });
+  //    $(".btn5").click(function(){
+  //     $(".para3").after("After using jquery in js ");
+  //  });
+  //  });
+ 
+     
+      
+        
 
-   });
+     
+     
