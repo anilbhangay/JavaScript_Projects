@@ -102,17 +102,26 @@
   //  });
   //  });
  
-     $(document).ready(function(){
-       $(".btn1").click(function(){
-          $(".para1").css({"background-color":"yellow","font-size":"25px","color":"grey"});
-       });
+    //  $(document).ready(function(){
+    //    $(".btn1").click(function(){
+    //       $(".para1").css({"background-color":"yellow","font-size":"25px","color":"grey"});
+    //    });
 
-         $(".btn2").click(function(){
-           alert("Color :" + $(".para1").css("color"));
-         });
-     });
+    //      $(".btn2").click(function(){
+    //        alert("Color :" + $(".para1").css("color"));
+    //      });
+    //  });
       
-        
+        $(document).ready(function(){
+           $(".btn1").click(function(){
+             $(".test").addClass("class1 class2");
+           });
+           
+           $(".btn2").click(function(){
+              $(".test").addClass("class2");
+           });
 
+        });
+       
      
      
