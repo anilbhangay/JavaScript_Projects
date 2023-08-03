@@ -134,5 +134,5 @@
       //  });
      
           $(document).ready(function(){
-             $("")
+           $("ul").find("span").css("border","2px dotted black");
           });
