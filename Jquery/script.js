@@ -123,13 +123,16 @@
 
         // });
        
-       $(document).ready(function(){
-         $(".btn1").click(function(){
-            $("#test").removeClass("class1");
-         });
+      //  $(document).ready(function(){
+      //    $(".btn1").click(function(){
+      //       $("#test").removeClass("class1");
+      //    });
 
-          $(".btn2").click(function(){
-             $("#test").toggleClass("class2");
-          });
-       });
+      //     $(".btn2").click(function(){
+      //        $("#test").toggleClass("class2");
+      //     });
+      //  });
      
+          $(document).ready(function(){
+             $("")
+          });
