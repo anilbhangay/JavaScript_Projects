@@ -133,6 +133,11 @@
       //     });
       //  });
      
-          $(document).ready(function(){
-            $("h3").prevUntil("h2").css("border","2px dotted black");
+          // $(document).ready(function(){
+          //   $("p").not(".p2").css("border","2px dotted green");
+          // });
+
+              var jp = $.noConflict();
+          jp(document).ready(function(){
+             jp("p").eq(2).css("border","2px dotted red");
           });
