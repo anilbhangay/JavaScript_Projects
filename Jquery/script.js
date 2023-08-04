@@ -137,7 +137,9 @@
           //   $("p").not(".p2").css("border","2px dotted green");
           // });
 
-              var jp = $.noConflict();
-          jp(document).ready(function(){
-             jp("p").eq(2).css("border","2px dotted red");
-          });
+          //     var jp = $.noConflict();
+          // jp(document).ready(function(){
+          //   jp('li').each(function(){
+          //     jp(this).text("Fruites");
+          //   });
+          // });
