@@ -1,9 +1,10 @@
  
+ var a = 20;
+ var b = 30;
+
  function sum(){
     var c = a + b;
     console.log(c);
  }
- sum();
- var  a = 10;
- var b = 20;
+ sum()
  console.log(sum());
