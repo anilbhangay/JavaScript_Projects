@@ -1,10 +1,10 @@
  
- var a = 20;
- var b = 30;
-
  function sum(){
-    var c = a + b;
+    const c = a + b;
     console.log(c);
  }
  sum()
+ const a = 20;
+ const b = 30;
+
  console.log(sum());
