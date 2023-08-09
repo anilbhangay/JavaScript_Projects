@@ -1,5 +1,4 @@
 // HOF
-
 //   const numbers = [1,2,3,4,5];
 //     function addone(array){
 //         for(let i = 0; i < array.length; i++){
@@ -20,7 +19,13 @@
    //       }
    //     document.write(pam());
 
+
    //   callback function 
+    function bomb(){
+      document.write("This is a callback function!!");
+    };
+
+    setTimeout(bomb, 2000);
        
 
 
