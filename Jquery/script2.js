@@ -21,13 +21,11 @@
 
 
    //   callback function 
-   function sold(){
+    function wook(){
+      document.write("It's working good!");
+    };
 
-     document.write(5 / 5);
-  };
-    
-    setTimeout(sold, 2000);
-       
-
+    setTimeout(wook, 2000);
+ 
 
          
