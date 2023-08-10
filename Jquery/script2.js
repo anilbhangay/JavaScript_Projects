@@ -21,11 +21,18 @@
 
 
    //   callback function 
-    function wook(){
-      document.write("It's working good!");
-    };
+    // function wook(){
+    //   document.write("It's working good!");
+    // };
 
-    setTimeout(wook, 2000);
+    // setTimeout(wook, 2000);
+
+    //function Programing
+
+    let sum = 0;
+    const number = [1,2,3,4,5,6,7,8];
+    
+    number.forEach((num) => console.log(sum += num));
  
 
          
