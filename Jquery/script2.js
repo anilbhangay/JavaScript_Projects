@@ -28,11 +28,10 @@
     // setTimeout(wook, 2000);
 
     //function Programing
-
-    let sum = 0;
-    const number = [1,2,3,4,5,6,7,8];
-    
-    number.forEach((num) => console.log(sum += num));
- 
+     
+    let pop = 1;
+    const sap = [1,2,3,4,5,6,7,8,9,10];
+   
+    sap.forEach((rest) => console.log(pop += rest));
 
          
