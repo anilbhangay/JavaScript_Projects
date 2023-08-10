@@ -21,13 +21,13 @@
 
 
    //   callback function 
-    function bomb(){
-      document.write("This is a callback function!!");
-    };
+   function sold(){
 
-    setTimeout(bomb, 2000);
+     document.write(5 / 5);
+  };
+    
+    setTimeout(sold, 2000);
        
-
 
 
          
