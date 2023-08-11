@@ -29,9 +29,10 @@
 
     //function Programing
      
-    let pop = 1;
-    const sap = [1,2,3,4,5,6,7,8,9,10];
-   
-    sap.forEach((rest) => console.log(pop += rest));
+    let set = -2;
+
+    const dot = [2,4,6,8,10,12,14,16,18];
+
+    dot.forEach((num) => console.log(set += num));
 
          
