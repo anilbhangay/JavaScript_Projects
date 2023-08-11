@@ -29,10 +29,11 @@
 
     //function Programing
      
-    let set = -2;
+   //  let set = -2;
 
-    const dot = [2,4,6,8,10,12,14,16,18];
+   //  const dot = [2,4,6,8,10,12,14,16,18];
 
-    dot.forEach((num) => console.log(set += num));
+   //  dot.forEach((num) => console.log(set += num));
 
          
+   
