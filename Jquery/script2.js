@@ -27,10 +27,10 @@
 
     // setTimeout(wook, 2000);
 
-     function dot(){
-        console.log("Using callback function");
-     }
-       setTimeout(log, 3000);
+   //   function dot(){
+   //      console.log("Using callback function");
+   //   }
+   //     setTimeout(log, 3000);
 
     //function Programing
    //  let set = -2;
