@@ -36,4 +36,6 @@
    //  dot.forEach((num) => console.log(set += num));
 
          
-   
+   let get = 1;
+   const fit = [1,2,3,4,5,6,7,8,9];
+   fit.forEach((set) => console.log(get += set));
