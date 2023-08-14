@@ -44,3 +44,11 @@
    // const fit = [1,2,3,4,5,6,7,8,9];
    // fit.forEach((set) => console.log(get += set));
 
+
+   // SetTimeour in SetTimeout
+    setTimeout(() => {
+       document.write(5 + 5);
+       setTimeout(() => {
+         document.write("Solve");
+       }, 3000);
+    }, 2000);
