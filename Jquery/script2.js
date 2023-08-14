@@ -54,6 +54,7 @@
    //  }, 2000);
 
   // Reduce Method
-    const post = [1,2,3,4,5,6,7,8];
-    let Solve = post.reduce((acc,curr) => acc + curr,1);
-          console.log(Solve);
+    const sos = [2,4,6,8,10,12,14];
+
+    let cod = sos.reduce((acc,curr) => acc + curr,-1);
+    console.log(cod);
