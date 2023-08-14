@@ -45,10 +45,15 @@
    // fit.forEach((set) => console.log(get += set));
 
 
-   // SetTimeour in SetTimeout
-    setTimeout(() => {
-       document.write(5 + 5);
-       setTimeout(() => {
-         document.write("Solve");
-       }, 3000);
-    }, 2000);
+   // SetTimeout in SetTimeout
+   //  setTimeout(() => {
+   //     document.write(5 + 5);
+   //     setTimeout(() => {
+   //       document.write("Solve");
+   //     }, 3000);
+   //  }, 2000);
+
+  // Reduce Method
+    const post = [1,2,3,4,5,6,7,8];
+    let Solve = post.reduce((acc,curr) => acc + curr,1);
+          console.log(Solve);
