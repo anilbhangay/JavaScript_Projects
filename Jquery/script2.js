@@ -62,20 +62,19 @@
 
    // Closures
    
-   function holder() {
-      let accountno = 101213131444;
-     let bal = 10000;
-    function deposite(val){
-      bal = bal + val;
+   function Customer() {
+      let accountno = 1283832923;
+      let bal = 25500;
+   function deposite(val){
+     bal = bal + val;
+     console.log(bal);
+   }
+    function withdrawn(val){
+    bal = bal - val;
       console.log(bal);
-    }  
-      function withdrawl(val){
-        bal = bal - val;
-        console.log(bal);
-      }
-      deposite(11000);
-       withdrawl(4000);
-   
+    }
+      deposite(1000);
+      withdrawn(1500);
    }
 
-   console.log(holder());
+   console.log(Customer());
