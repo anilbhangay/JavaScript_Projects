@@ -73,8 +73,8 @@
         bal = bal - val;
         console.log(bal);
       }
-      deposite(10000);
-       withdrawl(5000);
+      deposite(11000);
+       withdrawl(4000);
    
    }
 
