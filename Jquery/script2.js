@@ -60,4 +60,7 @@
    //  let cod = sos.reduce((acc,curr) => acc + curr,2);
    //  console.log(cod);
 
-   
+   // Closures
+    const saw = [1,2,3,4,5,6,7,8];
+    let det = saw.reduce((acc,num) => acc + num);
+    console.log(det);
