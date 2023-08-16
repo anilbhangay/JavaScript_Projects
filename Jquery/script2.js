@@ -33,13 +33,11 @@
    //     setTimeout(log, 3000);
 
     //function Programing
-   //  let set = -2;
+   //  let set = 2;
 
    //  const dot = [2,4,6,8,10,12,14,16,18];
-
    //  dot.forEach((num) => console.log(set += num));
-
-         
+   
    // let get = 1;
    // const fit = [1,2,3,4,5,6,7,8,9];
    // fit.forEach((set) => console.log(get += set));
