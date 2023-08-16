@@ -61,6 +61,21 @@
    //  console.log(cod);
 
    // Closures
-    const saw = [1,2,3,4,5,6,7,8];
-    let det = saw.reduce((acc,num) => acc + num);
-    console.log(det);
+   
+   function holder() {
+      let accountno = 101213131444;
+     let bal = 10000;
+    function deposite(val){
+      bal = bal + val;
+      console.log(bal);
+    }  
+      function withdrawl(val){
+        bal = bal - val;
+        console.log(bal);
+      }
+      deposite(10000);
+       withdrawl(5000);
+   
+   }
+
+   console.log(holder());
