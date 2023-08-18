@@ -62,7 +62,7 @@
    
    function Customer() {
       let accountno = 1283832923;
-      let bal = 25500;
+      let bal = 20000;
    function deposite(val){
      bal = bal + val;
      console.log(bal);
@@ -71,8 +71,12 @@
     bal = bal - val;
       console.log(bal);
     }
-      deposite(1000);
-      withdrawn(1500);
+      deposite(20000);
+      withdrawn(32000);
    }
 
    console.log(Customer());
+
+   function sot(){
+      
+   }
