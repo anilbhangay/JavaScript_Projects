@@ -60,19 +60,19 @@
 
    // Closures
    
-  //  function Customer() {
-  //     let accountno = 1283832923;
-  //     let bal = 25500;
-  //  function deposite(val){
-  //    bal = bal + val;
-  //    console.log(bal);
-  //  }
-  //   function withdrawn(val){
-  //   bal = bal - val;
-  //     console.log(bal);
-  //   }
-  //     deposite(1000);
-  //     withdrawn(1500);
-  //  }
+   function Customer() {
+      let accountno = 1283832923;
+      let bal = 25500;
+   function deposite(val){
+     bal = bal + val;
+     console.log(bal);
+   }
+    function withdrawn(val){
+    bal = bal - val;
+      console.log(bal);
+    }
+      deposite(1000);
+      withdrawn(1500);
+   }
 
-  //  console.log(Customer());
+   console.log(Customer());
