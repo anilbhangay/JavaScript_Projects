@@ -77,18 +77,4 @@
 
   //  console.log(Customer());
 
-   function holder(){
-     let account = 12345678;
-     let bal = 13000;
-     function deposite(val){
-      bal = bal + val;
-        console.log(bal);
-     }
-      function withdrawl(val){
-        bal = bal - val;
-        console.log(bal);
-      }
-      deposite(399);
-      withdrawl(99);
-   }
-     console.log(holder());
+   
