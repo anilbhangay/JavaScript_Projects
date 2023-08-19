@@ -88,7 +88,7 @@
         bal = bal - val;
         console.log(bal);
       }
-      deposite(7000);
-      withdrawl(2000);
+      deposite(399);
+      withdrawl(99);
    }
      console.log(holder());
