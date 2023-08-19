@@ -60,23 +60,35 @@
 
    // Closures
    
-   function Customer() {
-      let accountno = 1283832923;
-      let bal = 20000;
-   function deposite(val){
-     bal = bal + val;
-     console.log(bal);
-   }
-    function withdrawn(val){
-    bal = bal - val;
-      console.log(bal);
-    }
-      deposite(20000);
-      withdrawn(32000);
-   }
+  //  function Customer() {
+  //     let accountno = 1283832923;
+  //     let bal = 20000;
+  //  function deposite(val){
+  //    bal = bal + val;
+  //    console.log(bal);
+  //  }
+  //   function withdrawn(val){
+  //   bal = bal - val;
+  //     console.log(bal);
+  //   }
+  //     deposite(20000);
+  //     withdrawn(32000);
+  //  }
 
-   console.log(Customer());
+  //  console.log(Customer());
 
-   function sot(){
-      
+   function holder(){
+     let account = 12345678;
+     let bal = 13000;
+     function deposite(val){
+      bal = bal + val;
+        console.log(bal);
+     }
+      function withdrawl(val){
+        bal = bal - val;
+        console.log(bal);
+      }
+      deposite(7000);
+      withdrawl(2000);
    }
+     console.log(holder());
