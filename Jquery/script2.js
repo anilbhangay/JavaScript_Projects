@@ -77,4 +77,20 @@
 
   //  console.log(Customer());
 
+   // Event Loop
+   const userone = () => {
+      console.log("Hello Dev");
+   };
+
+   const usertwo = () => {
+      console.log("Hello App");      
+   };
+
+   const userthree = () => {
+     console.log("Hello Web");
+   };
+      userthree();
+      userone();
+      usertwo();
    
+    
