@@ -83,14 +83,17 @@
    };
 
    const usertwo = () => {
-      console.log("Hello App");      
+     setTimeout(() => {
+         console.log("Iam a setTimeout");
+     }, 3000)
+       console.log("Hello App");
    };
 
    const userthree = () => {
      console.log("Hello Web");
    };
       userthree();
-      userone();
       usertwo();
+      userone();
    
     
