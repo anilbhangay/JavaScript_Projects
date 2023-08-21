@@ -78,22 +78,23 @@
   //  console.log(Customer());
 
    // Event Loop
-   const userone = () => {
-      console.log("Hello Dev");
-   };
+  //  const userone = () => {
+  //     console.log("Hello Dev");
+  //  };
 
-   const usertwo = () => {
-     setTimeout(() => {
-         console.log("Iam a setTimeout");
-     }, 3000)
-       console.log("Hello App");
-   };
+  //  const usertwo = () => {
+  //    setTimeout(() => {
+  //        console.log("Iam a setTimeout");
+  //    }, 3000)
+  //      console.log("Hello App");
+  //  };
 
-   const userthree = () => {
-     console.log("Hello Web");
-   };
-      userthree();
-      usertwo();
-      userone();
+  //  const userthree = () => {
+  //    console.log("Hello Web");
+  //  };
+  //     userthree();
+  //     usertwo();
+  //     userone();
    
+  
     
