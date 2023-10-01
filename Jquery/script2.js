@@ -96,10 +96,6 @@
   //     usertwo();
   //     userone();
    
-  let x = () => {
-   console.log("developer");
-  };
-
-  x();
+   
   
     
