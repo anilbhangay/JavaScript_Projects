@@ -53,7 +53,7 @@
 
 
   // Reduce Method
-    const sos = [3,6,9,12,15,18,21];
+   //  const sos = [3,6,9,12,15,18,21];
 
    //  let cod = sos.reduce((acc,curr) => acc + curr,2);
    //  console.log(cod);
@@ -96,5 +96,10 @@
   //     usertwo();
   //     userone();
    
+  let x = () => {
+   console.log("developer");
+  };
+
+  x();
   
     
