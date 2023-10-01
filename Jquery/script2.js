@@ -53,7 +53,7 @@
 
 
   // Reduce Method
-   //  const sos = [2,4,6,8,10,12,14];
+    const sos = [3,6,9,12,15,18,21];
 
    //  let cod = sos.reduce((acc,curr) => acc + curr,2);
    //  console.log(cod);
