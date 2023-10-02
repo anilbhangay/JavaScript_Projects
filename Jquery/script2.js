@@ -78,6 +78,7 @@
   //  console.log(Customer());
 
    // Event Loop
+
   //  const userone = () => {
   //     console.log("Hello Dev");
   //  };
@@ -98,4 +99,8 @@
    
    
   
-    
+    let  solid = () => {
+      setTimeout(() => {
+         console.log("Happy coding!"); 
+      });
+    };
