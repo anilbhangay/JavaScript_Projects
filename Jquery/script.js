@@ -147,6 +147,6 @@
 
           // Javascript Important
 
-          let anil = [1,2,3,4,5,6,7,8];
-          let chotu = Array.length > 0;
-          console.log(chotu);
+          const w = "How are you ?";
+          let x = "iam fine!";
+          console.log(w + x);
