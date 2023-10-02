@@ -147,6 +147,4 @@
 
           // Javascript Important
 
-          const w = "How are you ?";
-          let x = "iam fine!";
-          console.log(w + x);
+         
