@@ -609,18 +609,18 @@ console.log(pythonlength !== jargonlength); //falsy
 
 //30. Create a simple calculator program in JavaScript which can perform the addition, substraction, multiplication and division on given numbers.
 
-      // let cal1 = prompt("Enter first number");
-      // let operation = prompt("Enter operation: +, -, *, /");
-      // let cal2 = prompt("Enter second number");
+      let cal1 = prompt("Enter first number");
+      let operation = prompt("Enter operation: +, -, *, /");
+      let cal2 = prompt("Enter second number");
 
-      // if(operation === "+") {
-      //   console.log("Addition:" + (cal1 + cal2));
-      // } else if(operation === "-") {
-      //   console.log("Subtraction:" + (cal1 - cal2));
-      // } else if(operation === "*") {
-      //   console.log("Multiplication:" + (cal1 * cal2));
-      // } else if(operation === "/") {
-      //   console.log("Division:" + (cal1 / cal2));
-      // } else {
-      //   console.log("Invalid operator.");
-      // } // Simple Calculator. 
+      if(operation === "+") {
+        console.log("Addition:" + (cal1 + cal2));
+      } else if(operation === "-") {
+        console.log("Subtraction:" + (cal1 - cal2));
+      } else if(operation === "*") {
+        console.log("Multiplication:" + (cal1 * cal2));
+      } else if(operation === "/") {
+        console.log("Division:" + (cal1 / cal2));
+      } else {
+        console.log("Invalid operator.");
+      } // Simple Calculator. 
