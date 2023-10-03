@@ -98,9 +98,3 @@
   //     userone();
    
    
-  
-    let  solid = () => {
-      setTimeout(() => {
-         console.log("Happy coding!"); 
-      });
-    };
