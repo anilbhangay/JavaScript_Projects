@@ -24,10 +24,10 @@ console.log(king); //null
 
 //02. Declare variables to store your first name, last name, marital status, country and age and display them using interpolation method.
 
- let firstname = "Michael";
- let lastname = "Jackson";
+ let firstname = "Rocky";
+ let lastname = "Bhai";
  let marital_status = "Married";
- let country = "America";
+ let country = "India";
  let age = 40;
  let fullname = firstname + " " + lastname;
 
