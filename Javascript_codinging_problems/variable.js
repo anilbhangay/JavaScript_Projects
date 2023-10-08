@@ -1,6 +1,6 @@
 // 01.declare variables and assign string, boolean, undefined and null data types, Display all the value with their data type.
 
-let person = "Arjit kumar";
+let person = "Anmol kumar";
 console.log(person); // string
 
          //booleans
@@ -84,7 +84,7 @@ let personInfo = `My self ${fullname}. Iam ${age} years old, Iam ${marital_statu
 
  //08. Demonstrate the use of trim() to remove any trailing whitespace at the beginning and the end of a string.
 
- let space = "      this is a programming language of javascript       ";
+ let space = " this is a programming language of javascript ";
  let clear = space.trim();
 
  console.log(clear);  //trim
@@ -233,14 +233,14 @@ console.log(pythonlength !== jargonlength); //falsy
 
   //  13. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
 
-  //  let Age = prompt("Enter your age:");
+   let Age = prompt("Enter your age:");
      
-  //  if(Age >= 18){
-  //   console.log('You are old enough to drive');
-  //  }
-  //   else{
-  //     console.log('Wait for the number of years needs to turn 18'); 
-  //   }  // using prompt  
+   if(Age >= 18){
+    console.log('You are old enough to drive');
+   }
+    else{
+      console.log('Wait for the number of years needs to turn 18'); 
+    }  // using prompt  
 
 
   //14. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript? Create a program which checks that the given number is even or odd.
