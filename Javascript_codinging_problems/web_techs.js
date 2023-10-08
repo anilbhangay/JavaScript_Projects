@@ -1,2 +1,2 @@
 
-module.exports = [ "HTML", "CSS", "JavaScript", "Angularjs", "Reactjs", "Node.js", "DevOps", "FullStack Web Development"];
+module.exports = [ "HTML", "CSS", "JavaScript", "Angular", "Reactjs", "Nodejs", "DevOps", "FullStack Web Development"];

@@ -24,10 +24,10 @@ console.log(king); //null
 
 //02. Declare variables to store your first name, last name, marital status, country and age and display them using interpolation method.
 
- let firstname = "Rocky";
- let lastname = "Bhai";
+ let firstname = "David";
+ let lastname = "Warner";
  let marital_status = "Married";
- let country = "India";
+ let country = "Australia";
  let age = 40;
  let fullname = firstname + " " + lastname;
 
@@ -240,7 +240,8 @@ console.log(pythonlength !== jargonlength); //falsy
    }
     else{
       console.log('Wait for the number of years needs to turn 18'); 
-    }  // using prompt  
+    } 
+         // using prompt  
 
 
   //14. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript? Create a program which checks that the given number is even or odd.
